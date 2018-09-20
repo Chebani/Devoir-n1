@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Devoir Revision</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="JS/fonctions.js"></script>
+    <script src="JQuery/jquery-3.1.1.js"></script>
+
+    <script type="text/javascript">
+        $(
+            function(){
+                $('#btnExo1').click(Exo1);
+                $('#btnExo2').click(Exo2);
+               
+            }
+        )
+            
+    </script>
+</head> 
+<body>
+    <h1>Devoir n°1 Revision</h1>
+    <input type="button" value="Exo1" id="btnExo1">
+    <br><br>
+    <input type="button" value="Exo2" id="btnExo2">
+    <br><br>
+    
+    <br><br><br>
+    <div id="categories"></div>
+    <br><br><br>
+    <div id="services"></div>
+    
+    <input type='text' disabled='disabled' value='Quel est votre identifiant'/><br>
+    <input type='text' id='lstDeals'/><br>
+    <input type='button' value='Chercher les deals'/>
+    ?>
+</body>
+</html>
